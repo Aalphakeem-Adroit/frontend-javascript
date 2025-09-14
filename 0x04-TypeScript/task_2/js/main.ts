@@ -72,7 +72,7 @@ console.log(emp3); // Director
 
 // 6. Creating functions specific to employees
 // Creating isDrector function
-function isDirector(employee: Director | Teacher): employee is Director {
+export function isDirector(employee: Director | Teacher): employee is Director {
   return employee instanceof Director;
 }
 
